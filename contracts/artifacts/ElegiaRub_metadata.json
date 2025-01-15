@@ -507,6 +507,35 @@
 				"type": "function"
 			},
 			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "to",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bytes",
+						"name": "data",
+						"type": "bytes"
+					}
+				],
+				"name": "mintAndCall",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
 				"inputs": [],
 				"name": "name",
 				"outputs": [
@@ -913,7 +942,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/ERUB.sol": "ElegiaRub"
+			"contracts/ElegiaRub.sol": "ElegiaRub"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -1111,12 +1140,12 @@
 				"dweb:/ipfs/QmVUSvooZKEdEdap619tcJjTLcAuH6QBdZqAzWwnAXZAWJ"
 			]
 		},
-		"contracts/ERUB.sol": {
-			"keccak256": "0x03920218c3df368556ff42f3345255dc191ef85e590092e5a18a06f58fdeb94c",
+		"contracts/ElegiaRub.sol": {
+			"keccak256": "0xcce204be2cdbe5cb66bd038d7b7176dbf1c7be3a1a0afb0ba810d72225ce639b",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://1a50682d74d82b48a46bff00cda292462e0b90f4b0f9a7619e11e96554a50935",
-				"dweb:/ipfs/QmRdyLVtJJ4S2af6AnX1NP3NC4jiGWV43CErLa1Hv75EFk"
+				"bzz-raw://34b331ee7bbafd9f387ab4484958f99b9efe523aa621fe8bb3c36a5f8587cb14",
+				"dweb:/ipfs/QmczGpDgqmGSb65rJRczGH5D9YLyV4gVeQHWXTRmmhfkk4"
 			]
 		}
 	},
